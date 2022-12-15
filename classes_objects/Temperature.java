@@ -3,6 +3,7 @@ package classes_objects;
 import java.text.DecimalFormat;
 
 public class Temperature {
+
     private double farhenite; // Encapsulation
     private double celcius; // Encapsulation
 
@@ -19,6 +20,16 @@ public class Temperature {
     // Getter
     public double getCelcius() {
         return this.celcius;
+    }
+
+    // Getter Methods
+    public double getFarhenite() {
+        return this.farhenite;
+    }
+
+    // Setter Methods
+    public void setFarhenite(double farhenite) {
+        this.farhenite = farhenite;
     }
 
     public String toString() {
