@@ -47,8 +47,13 @@ public:
 int main()
 {
     Cat myCat = {"Spider", 2};
+    int i = 7;
+    int &a = i;
     cout << myCat.getName() << "\n";
     cout << myCat.message() << "\n";
     cout << myCat.Animal::message() << "\n";
+    cout << "value of i is " << i<<endl;
+    a = 4;
+    cout << "value of i is " << i<<endl;
     return 0;
 }
